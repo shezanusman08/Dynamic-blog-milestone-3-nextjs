@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { client } from "./lib/sanity";
 import { simpleBlogcard } from "./lib/interface";
-import { urlFor } from "@/sanity/lib/image";
+import { urlFor } from "./lib/sanity";
 
 
 async function getData() {
