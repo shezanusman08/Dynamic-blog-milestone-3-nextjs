@@ -1,6 +1,6 @@
-import { fullBlog } from "@/app/lib/interface";
-import { urlFor } from "@/app/lib/sanity";
-import { client } from "@/sanity/lib/client";
+import { fullBlog } from "../../lib/interface";
+import { urlFor } from "../../lib/sanity";
+import {client} from "../../lib/sanity"
 import { PortableText } from "next-sanity";
 
 import Image from "next/image";
